@@ -1,4 +1,7 @@
 #include <iostream>
+
+using namespace std;
+
 static int32_t g_switch = 0; 
 
 int main()
@@ -8,6 +11,8 @@ int main()
     } else {
         std::cout << "close" << std::endl;
     }
+
+    cout << sizeof(long) << endl;
     
     std::cout << "Hello World." << std::endl;
 }
