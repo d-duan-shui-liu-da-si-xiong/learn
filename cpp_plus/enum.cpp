@@ -20,7 +20,5 @@ int main()
 			<< dev << endl;
 	}
 	
-
-	
 	return 0;
 }

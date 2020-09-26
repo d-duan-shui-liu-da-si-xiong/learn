@@ -16,7 +16,7 @@ int main()
 	cout << "please input your name:";
 	getline(cin, s);
 	cout << "you input is:"
-		 << s << endl;
+		 << "Hello, " + s << endl;
 
 	return 0;
 }
