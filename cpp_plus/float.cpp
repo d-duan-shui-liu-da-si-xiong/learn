@@ -7,7 +7,7 @@ int main()
 
     int iLoans = loans * 100;
     cout << loans << endl;
-    printf("%.20f\n", loans);
+    printf("%.30f\n", loans);
     cout << iLoans << endl;
     printf("%.3f\n", loans * 100000000000);
 
