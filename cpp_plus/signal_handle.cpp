@@ -47,6 +47,7 @@ int main()
 {
     //reg signal handler
     signal(SIGSEGV, signalHandler);
+	printf("construct_error addr: %p\n sigHandle addr: %p\n", construct_error, signalHandler);
     construct_error2();
 
     return 0;
